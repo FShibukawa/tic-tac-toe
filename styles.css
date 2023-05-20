@@ -1,3 +1,18 @@
-h1 {
-    color: red;
+.cell {
+    border: 1px solid black;
+    height: 200px;
+    width: 200px;
+}
+
+main {
+    display: grid;
+    grid-template:
+    "c1 c2 c3" 200px
+    "c4 c5 c6" 200px
+    "c7 c8 c9" 200px /
+    200px 200px 200px;
+}
+
+.cell.select {
+    background-color: gray;
 }
